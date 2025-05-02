@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";  // Import Link from react-router-dom
 import "./Home.css";
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
         <div className="hero-content">
           <h1>Your Safety, Our Priority</h1>
           <p>Stay informed. Report incidents. Help others stay safe.</p>
-          <a href="/alerts" className="hero-button">View Alerts</a>
+          {/* <a href="/alerts" className="hero-button">View Alerts</a> */}
+          <Link to="/alerts" className="hero-button">View Alerts</Link> {/* Use Link component */}
         </div>
       </section>
     </div>
