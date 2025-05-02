@@ -1,0 +1,100 @@
+.watch {
+  padding: 40px;
+  background-color: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.watch h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.watch p {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.watch .volunteer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.watch .volunteer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.watch form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.watch label {
+  font-size: 1.1em;
+}
+
+.watch input {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.watch button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.watch button:hover {
+  background-color: #0056b3;
+}
+
+.watch .events {
+  margin-top: 40px;
+}
+
+.watch .events h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #007bff;
+}
+
+.watch .events ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1em;
+  line-height: 2;
+  text-align: center;
+}
+
+.watch .events li {
+  font-size: 1.2em;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}

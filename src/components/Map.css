@@ -1,0 +1,23 @@
+.map {
+    padding: 2rem;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .map h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .map-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .leaflet-container {
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

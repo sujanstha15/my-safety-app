@@ -1,0 +1,47 @@
+/* Home Page Background */
+.home {
+  background-color: #f0f4f8; /* Soft light background color */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero Section Styling */
+.hero {
+  background-color: #ffffff; /* White background for the hero section */
+  padding: 40px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  max-width: 800px; /* Restrict width to make it more compact */
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 2.5rem; /* Slightly smaller font size */
+  font-weight: 600; /* Bold, but not too heavy */
+  color: #333; /* Dark grey text for better readability */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.25rem; /* Slightly smaller font for the description */
+  color: #555; /* Medium grey text */
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 12px 25px;
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
